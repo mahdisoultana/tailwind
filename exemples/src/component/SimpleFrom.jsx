@@ -1,15 +1,15 @@
 import React from "react";
 
 function SimpleFrom() {
-  function sm(str, size = "lg") {
-    const cssM = str
-      .split(" ")
-      .filter(Boolean)
-      .map((feild) => `${size}:${feild}`)
-      .join(" ");
-    console.log(cssM);
-    return cssM;
-  }
+  // function sm(str, size = "lg") {
+  //   const cssM = str
+  //     .split(" ")
+  //     .filter(Boolean)
+  //     .map((feild) => `${size}:${feild}`)
+  //     .join(" ");
+  //   console.log(cssM);
+  //   return cssM;
+  // }
   return (
     <form className="bg-white max-w-lg xl:max-w-xl w-full pt-4 p-8 rounded-lg space-y-4  xl:grid xl:grid-cols-2 items-baseline gap-6">
       <h1 className="font-bold text-3xl  text-gray-800 font-mono col-span-2 text-center">
